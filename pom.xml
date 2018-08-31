@@ -33,25 +33,13 @@
 		</plugins>
 	</build>
 	
-<!-- <dependencyManagement>
-   <dependencies>
-     <dependency>
-        <groupId>org.jboss.arquillian</groupId>
-        <artifactId>arquillian-bom</artifactId>
-        <version>1.1.4.Final</version>
-        <scope>import</scope>
-        <type>pom</type>
-    </dependency>
-   </dependencies>
-</dependencyManagement> -->	
-
 	<dependencies>
 		<dependency> 
-				<groupId>org.jboss.arquillian.container</groupId> 
-				<artifactId>arquillian-was-embedded-8</artifactId> 
-				<version>1.0.0.CR1</version> 
-				<scope>system</scope> 
-				<systemPath>D:\Workspaces\arquillian-container-was\was-embedded-8\arquillian-was-embedded-8.jar</systemPath> 
+			<groupId>org.jboss.arquillian.container</groupId> 
+			<artifactId>arquillian-was-embedded-8</artifactId> 
+			<version>1.0.0.CR1</version> 
+			<scope>system</scope> 
+			<systemPath>D:\Workspaces\arquillian-container-was\was-embedded-8\arquillian-was-embedded-8.jar</systemPath> 
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.spec</groupId>
